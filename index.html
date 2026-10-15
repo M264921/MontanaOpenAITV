@@ -1,28 +1,10 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>MontanaOpenAiTV</title>
-    <script src="P2P_Search.min.acestream.js"></script>
-    <script src="Magic_Player.acestream.js"></script>
-    <script>
-        function playStream() {
-            const input = document.getElementById('ace_id').value.trim();
-            if (!input) {
-                alert("Introduce un ID de AceStream");
-                return;
-            }
-            const id = input.replace("acestream://", "");
-            const finalUrl = "http://toninomontana.ddns.net:6878/ace/getstream?id=" + id;
-            window.location.href = finalUrl;
-        }
-    </script>
-</head>
-<body>
-    <h1>MontanaOpenAiTV</h1>
-    <p>Introduce el enlace AceStream:</p>
-    <input type="text" id="ace_id" placeholder="acestream://...">
-    <button onclick="playStream()">Reproducir</button>
-</body>
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="0; url=https://m264921.github.io/yavale/open-stream.html">
+<title>MontanaTV se mantiene en YaVale</title>
+<h1>MontanaTV continua en YaVale</h1>
+<p><a href="https://m264921.github.io/yavale/open-stream.html">Abrir el reproductor de enlaces</a></p>
+<p><a href="https://github.com/M264921/yavale">Codigo y configuracion actuales</a></p>
 </html>
